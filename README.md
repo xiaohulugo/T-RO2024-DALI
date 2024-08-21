@@ -8,15 +8,15 @@ Our code is based on ST3D (https://github.com/CVMI-Lab/ST3D/tree/master) which i
 ### Waymo -> KITTI TASK
 |     method        | AP_BEV@R40 | AP_3D@R40 | Model | 
 |:-----------------:|:----------:|:---------:|:-----:|
-|    DALI(CAD)      |    85.53   |    75.32  |[model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
-|    DALI(Points)   |    85.46   |    75.10  |[model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
+|    DALI(CAD)      |    85.53   |    75.32  |[model](https://drive.google.com/file/d/1WzVQoue7JUiVmdXOWHJ_tLHGSqRLgV-a/view?usp=sharing)|
+|    DALI(Points)   |    85.46   |    75.10  |[model](https://drive.google.com/file/d/1deZbQlRBEoYXaqkfPRqu60AEoZ7BbVfR/view?usp=sharing)|
 
 
 ### nuScenes -> KITTI TASK
 |     method        | AP_BEV@R40 | AP_3D@R40 | Model |
 |:-----------------:|:----------:|:---------:|:-----:|
-|    DALI(CAD)      |    83.43   |    69.09  | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
-|    DALI(Points)   |    83.26   |    68.84  | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
+|    DALI(CAD)      |    83.43   |    69.09  | [model](https://drive.google.com/file/d/1FfI7LhDIElICmCxAR6dqy0PBLXt24DkL/view?usp=sharing)|
+|    DALI(Points)   |    83.26   |    68.84  | [model](https://drive.google.com/file/d/1Ni1s7ctSYvoJgIHWYEltfxarBqbwtjhF/view?usp=sharing)|
 
 ## Installation
 
