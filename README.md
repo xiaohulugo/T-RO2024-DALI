@@ -4,25 +4,23 @@ Official implementation of the T-RO paper "DALI: Domain Adaptive LiDAR Object De
 ## Introduction
 Our code is based on ST3D (https://github.com/CVMI-Lab/ST3D/tree/master) which is based on OpenPCDet v0.3.0. More updates on OpenPCDet are supposed to be compatible with our code.
 
-## Model Zoo
+## Performance
 ### Waymo -> KITTI TASK
-|                                                                                             |     method        | AP_BEV@R40 | AP_3D@R40 | 
-|---------------------------------------------------------------------------------------------|:-----------------:|:----------:|:---------:|
-| [SECOND-IoU](tools/cfgs/da-waymo-kitti_models/secondiou_st3d/secondiou_st3d_car.yaml)       |    DALI(CAD)      |    85.53   |    75.3   | 
-| [SECOND-IoU](tools/cfgs/da-waymo-kitti_models/secondiou_st3d/secondiou_st3d_car.yaml)       |    DALI(Points)   |    85.53   |    75.3   | 
+|     method        | AP_BEV@R40 | AP_3D@R40 | Model | 
+|:-----------------:|:----------:|:---------:|:-----:|
+|    DALI(CAD)      |    85.53   |    75.32  |[model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
+|    DALI(Points)   |    85.46   |    75.10  |[model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
 
-We could not provide the above pre-trained models due to [Waymo Dataset License Agreement](https://waymo.com/open/terms/), 
-but you should achieve similar performance by training with the default configs. Note that the training Waymo data used in our work is version 1.0. 
 
 ### nuScenes -> KITTI TASK
-|                                                                                             |     method        | AP_BEV@R40 | AP_3D@R40 | 
-|---------------------------------------------------------------------------------------------|:-----------------:|:----------:|:---------:|
-| [SECOND-IoU](tools/cfgs/da-waymo-kitti_models/secondiou_st3d/secondiou_st3d_car.yaml)       |    DALI(CAD)      |    85.53   |    75.3   | 
-| [SECOND-IoU](tools/cfgs/da-waymo-kitti_models/secondiou_st3d/secondiou_st3d_car.yaml)       |    DALI(Points)   |    85.53   |    75.3   | 
+|     method        | AP_BEV@R40 | AP_3D@R40 | Model |
+|:-----------------:|:----------:|:---------:|:-----:|
+|    DALI(CAD)      |    83.43   |    69.09  | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
+|    DALI(Points)   |    83.26   |    68.84  | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/jhyang13_connect_hku_hk/EeMq80RN8K1Fsub3qWyfexMB5mIgb-eohHbs9iCMlTY9Pw?e=7ClPTt)|
 
 ## Installation
 
-Please refer to [INSTALL.md](https://github.com/CVMI-Lab/ST3D/blob/master/docs/INSTALL.md) for the installation.
+Please refer to the installation of ST3D [INSTALL.md](https://github.com/CVMI-Lab/ST3D/blob/master/docs/INSTALL.md) for the instructions.
 
 ## License
 
@@ -34,13 +32,14 @@ Our code is heavily based on [OpenPCDet v0.3](https://github.com/open-mmlab/Open
 
 ## Citation
 
-If you find this project useful in your research, please consider cite:
+If you find this project useful in your research, please consider to cite:
 ```
-@inproceedings{lu2024dali,
-    title={DALI: Domain Adaptive LiDAR Object Detection via Distribution-level and Instance-level Pseudo Label Denoising},
-    author={Lu, Xiaohu and Radha, Hayder},
-    booktitle={IEEE Transactions on Robotics},
-    year={2024}
+@article{lu2024dali,
+  title={DALI: Domain Adaptive LiDAR Object Detection via Distribution-level and Instance-level Pseudo Label Denoising},
+  author={Lu, Xiaohu and Radha, Hayder},
+  journal={IEEE Transactions on Robotics},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 ```
