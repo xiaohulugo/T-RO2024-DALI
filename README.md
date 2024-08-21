@@ -50,11 +50,3 @@ If you find this project useful in your research, please consider to cite:
     year={2021}
 }
 ```
-```
-@misc{openpcdet2020,
-    title={OpenPCDet: An Open-source Toolbox for 3D Object Detection from Point Clouds},
-    author={OpenPCDet Development Team},
-    howpublished = {\url{https://github.com/open-mmlab/OpenPCDet}},
-    year={2020}
-}
-```
