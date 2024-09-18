@@ -1,5 +1,5 @@
 # T-RO2024-DALI
-Official implementation of the T-RO paper "DALI: Domain Adaptive LiDAR Object Detection via Distribution-level and Instance-level Pseudo Label Denoising"
+Official implementation of the T-RO paper "DALI: Domain Adaptive LiDAR Object Detection via Distribution-level and Instance-level Pseudo Label Denoising" https://ieeexplore.ieee.org/document/10614889
 
 ## Introduction
 Our code is based on ST3D (https://github.com/CVMI-Lab/ST3D/tree/master) which is based on OpenPCDet v0.3.0. More updates on OpenPCDet are supposed to be compatible with our code.
